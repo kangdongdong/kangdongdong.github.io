@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://kangdongdong.github.io/"/>
+  <link href="http://kiedeng.github.io/"/>
   <updated>2020-02-09T15:23:01.510Z</updated>
-  <id>http://kangdongdong.github.io/</id>
+  <id>http://kiedeng.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>kangdon</title>
-    <link href="http://kangdongdong.github.io/2020/02/09/kangdon/"/>
-    <id>http://kangdongdong.github.io/2020/02/09/kangdon/</id>
+    <link href="http://kiedeng.github.io/2020/02/09/kangdon/"/>
+    <id>http://kiedeng.github.io/2020/02/09/kangdon/</id>
     <published>2020-02-09T15:23:01.000Z</published>
     <updated>2020-02-09T15:23:01.510Z</updated>
     
@@ -35,15 +35,15 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kangdongdong.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://kiedeng.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
     
   </entry>
   
   <entry>
     <title>kangdongs</title>
-    <link href="http://kangdongdong.github.io/2020/02/09/kangdongs/"/>
-    <id>http://kangdongdong.github.io/2020/02/09/kangdongs/</id>
+    <link href="http://kiedeng.github.io/2020/02/09/kangdongs/"/>
+    <id>http://kiedeng.github.io/2020/02/09/kangdongs/</id>
     <published>2020-02-09T14:59:34.000Z</published>
     <updated>2020-02-09T14:59:34.474Z</updated>
     
@@ -64,8 +64,8 @@
   
   <entry>
     <title>kangdong</title>
-    <link href="http://kangdongdong.github.io/2020/02/09/kangdong/"/>
-    <id>http://kangdongdong.github.io/2020/02/09/kangdong/</id>
+    <link href="http://kiedeng.github.io/2020/02/09/kangdong/"/>
+    <id>http://kiedeng.github.io/2020/02/09/kangdong/</id>
     <published>2020-02-09T14:59:11.000Z</published>
     <updated>2020-02-09T14:59:11.701Z</updated>
     
@@ -86,8 +86,8 @@
   
   <entry>
     <title>ss</title>
-    <link href="http://kangdongdong.github.io/2020/02/09/ss/"/>
-    <id>http://kangdongdong.github.io/2020/02/09/ss/</id>
+    <link href="http://kiedeng.github.io/2020/02/09/ss/"/>
+    <id>http://kiedeng.github.io/2020/02/09/ss/</id>
     <published>2020-02-09T14:49:43.000Z</published>
     <updated>2020-02-09T14:56:25.872Z</updated>
     
@@ -108,8 +108,8 @@
   
   <entry>
     <title>kang</title>
-    <link href="http://kangdongdong.github.io/2020/02/09/kang/"/>
-    <id>http://kangdongdong.github.io/2020/02/09/kang/</id>
+    <link href="http://kiedeng.github.io/2020/02/09/kang/"/>
+    <id>http://kiedeng.github.io/2020/02/09/kang/</id>
     <published>2020-02-09T13:26:20.000Z</published>
     <updated>2020-02-09T13:56:26.922Z</updated>
     
@@ -130,8 +130,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://kangdongdong.github.io/2020/02/09/hello-world/"/>
-    <id>http://kangdongdong.github.io/2020/02/09/hello-world/</id>
+    <link href="http://kiedeng.github.io/2020/02/09/hello-world/"/>
+    <id>http://kiedeng.github.io/2020/02/09/hello-world/</id>
     <published>2020-02-09T10:25:39.860Z</published>
     <updated>2020-02-08T17:27:26.617Z</updated>
     
@@ -152,8 +152,8 @@
   
   <entry>
     <title>hexo博客搭建</title>
-    <link href="http://kangdongdong.github.io/2020/02/09/hexo_install/"/>
-    <id>http://kangdongdong.github.io/2020/02/09/hexo_install/</id>
+    <link href="http://kiedeng.github.io/2020/02/09/hexo_install/"/>
+    <id>http://kiedeng.github.io/2020/02/09/hexo_install/</id>
     <published>2020-02-09T08:20:21.000Z</published>
     <updated>2020-02-09T14:43:27.068Z</updated>
     
@@ -169,15 +169,15 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kangdongdong.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://kiedeng.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
     
   </entry>
   
   <entry>
     <title>linux安装指南</title>
-    <link href="http://kangdongdong.github.io/2020/02/09/tryfirst/"/>
-    <id>http://kangdongdong.github.io/2020/02/09/tryfirst/</id>
+    <link href="http://kiedeng.github.io/2020/02/09/tryfirst/"/>
+    <id>http://kiedeng.github.io/2020/02/09/tryfirst/</id>
     <published>2020-02-09T08:20:21.000Z</published>
     <updated>2020-02-09T13:27:02.987Z</updated>
     
@@ -193,10 +193,10 @@
     </summary>
     
     
-      <category term="基础" scheme="http://kangdongdong.github.io/categories/%E5%9F%BA%E7%A1%80/"/>
+      <category term="基础" scheme="http://kiedeng.github.io/categories/%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="linux" scheme="http://kangdongdong.github.io/tags/linux/"/>
+      <category term="linux" scheme="http://kiedeng.github.io/tags/linux/"/>
     
   </entry>
   

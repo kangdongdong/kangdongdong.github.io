@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://yoursite.com/2020/02/09/kang/</loc>
+    <loc>http://kangdongdong.github.io/2020/02/09/kangdon/</loc>
     <lastmod>2020-02-09</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2020/02/09/tryfirst/</loc>
+    <loc>http://kangdongdong.github.io/2020/02/09/kangdongs/</loc>
     <lastmod>2020-02-09</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2020/02/09/hello-world/</loc>
+    <loc>http://kangdongdong.github.io/2020/02/09/kangdong/</loc>
+    <lastmod>2020-02-09</lastmod>
+  </url>  <url>
+    <loc>http://kangdongdong.github.io/2020/02/09/ss/</loc>
+    <lastmod>2020-02-09</lastmod>
+  </url>  <url>
+    <loc>http://kangdongdong.github.io/2020/02/09/hexo_install/</loc>
+    <lastmod>2020-02-09</lastmod>
+  </url>  <url>
+    <loc>http://kangdongdong.github.io/2020/02/09/kang/</loc>
+    <lastmod>2020-02-09</lastmod>
+  </url>  <url>
+    <loc>http://kangdongdong.github.io/2020/02/09/tryfirst/</loc>
+    <lastmod>2020-02-09</lastmod>
+  </url>  <url>
+    <loc>http://kangdongdong.github.io/2020/02/09/hello-world/</loc>
     <lastmod>2020-02-08</lastmod>
   </url>
 </urlset>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kiedeng.github.io/"/>
-  <updated>2020-02-10T06:09:14.108Z</updated>
+  <updated>2020-02-10T06:41:41.633Z</updated>
   <id>http://kiedeng.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hadoop分布式集群搭建</title>
+    <link href="http://kiedeng.github.io/2020/02/10/hadoop%E5%88%86%E5%B8%83%E5%BC%8F%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA/"/>
+    <id>http://kiedeng.github.io/2020/02/10/hadoop%E5%88%86%E5%B8%83%E5%BC%8F%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA/</id>
+    <published>2020-02-10T06:11:15.000Z</published>
+    <updated>2020-02-10T06:41:41.633Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Mon Feb 10 2020 14:41:48 GMT+0800 (GMT+08:00) --><h3 id="克隆虚拟机"><a href="#克隆虚拟机" class="headerlink" title="克隆虚拟机"></a>克隆虚拟机</h3><ul><li>配置好的Linux虚拟机-&gt; 管理 -&gt; 克隆</li></ul><p>进入：vim /etc/udev/rules.d/70-persistent-net.rules</p><blockquote><p>删除eht0的那一行</p><p>将下一行的eth0改为eth1</p><p>复制address物理地址</p></blockquote><p>进入：vim /etc/sysconfig/network-scripts/ifcfg-eth0</p><blockquote><p>HWADDR:粘贴物理地址</p><p>IPADDR=192.168.1.101 设置ip</p><p>ONBOOT=yes<br>NM_CONTROLLED=yes<br>B00TPROTO=static</p><p>GATEWAY=192.168.1.2<br>DNS1=192.168.1.2 和网关一致</p></blockquote><p>修改主机名称：vim /etc/sysconfig/network</p><blockquote><p>NETWORKING=yes<br>HOSTNAME=hadoopl 01</p></blockquote><p>修改主机映射：vim /etc/hosts</p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Mon Feb 10 2020 14:41:48 GMT+0800 (GMT+08:00) --&gt;&lt;h3 id=&quot;克隆虚拟机&quot;&gt;&lt;a href=&quot;#克隆虚拟机&quot; class=&quot;headerlink&quot; title=&quot;克隆虚拟机&quot;&gt;&lt;/a&gt;克隆虚拟机&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="部署" scheme="http://kiedeng.github.io/categories/%E9%83%A8%E7%BD%B2/"/>
+    
+    
+      <category term="Hadoop" scheme="http://kiedeng.github.io/tags/Hadoop/"/>
+    
+      <category term="大数据" scheme="http://kiedeng.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux安装与配置</title>

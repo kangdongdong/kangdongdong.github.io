@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kiedeng.github.io/2020/02/10/hexo%E6%90%AD%E5%BB%BA/</loc>
+    
+    <lastmod>2020-02-10T02:42:13.768Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kiedeng.github.io/about/index.html</loc>
     
     <lastmod>2020-02-09T16:43:45.968Z</lastmod>
@@ -16,58 +23,9 @@
   </url>
   
   <url>
-    <loc>http://kiedeng.github.io/2020/02/09/kangdon/</loc>
-    
-    <lastmod>2020-02-09T15:23:01.510Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kiedeng.github.io/2020/02/09/kangdongs/</loc>
-    
-    <lastmod>2020-02-09T14:59:34.474Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kiedeng.github.io/2020/02/09/kangdong/</loc>
-    
-    <lastmod>2020-02-09T14:59:11.701Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kiedeng.github.io/2020/02/09/ss/</loc>
-    
-    <lastmod>2020-02-09T14:56:25.872Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kiedeng.github.io/2020/02/09/hexo_install/</loc>
-    
-    <lastmod>2020-02-09T14:43:27.068Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://kiedeng.github.io/404.html</loc>
     
     <lastmod>2020-02-09T14:37:29.946Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kiedeng.github.io/2020/02/09/kang/</loc>
-    
-    <lastmod>2020-02-09T13:56:26.922Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kiedeng.github.io/2020/02/09/tryfirst/</loc>
-    
-    <lastmod>2020-02-09T13:27:02.987Z</lastmod>
     
   </url>
   
@@ -96,13 +54,6 @@
     <loc>http://kiedeng.github.io/categories/index.html</loc>
     
     <lastmod>2020-02-09T03:33:37.347Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kiedeng.github.io/2020/02/09/hello-world/</loc>
-    
-    <lastmod>2020-02-08T17:27:26.617Z</lastmod>
     
   </url>
   

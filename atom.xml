@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kiedeng.github.io/"/>
-  <updated>2020-02-11T11:25:52.268Z</updated>
+  <updated>2020-02-12T15:02:18.383Z</updated>
   <id>http://kiedeng.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hadoop编译源码</title>
+    <link href="http://kiedeng.github.io/2020/02/12/Hadoop%E7%BC%96%E8%AF%91%E6%BA%90%E7%A0%81/"/>
+    <id>http://kiedeng.github.io/2020/02/12/Hadoop%E7%BC%96%E8%AF%91%E6%BA%90%E7%A0%81/</id>
+    <published>2020-02-12T03:29:53.000Z</published>
+    <updated>2020-02-12T15:02:18.383Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Wed Feb 12 2020 23:06:58 GMT+0800 (GMT+08:00) --><h2 id="jar包准备"><a href="#jar包准备" class="headerlink" title="jar包准备"></a>jar包准备</h2><ol><li>hadoop-2.7.2-src.tar.gz</li><li>jdk-8u144-linux-x64.tar.gz</li><li>apache-ant-1.9.9-bin.tar.gz（build工具，打包用的）</li><li>apache-maven-3.0.5-bin.tar.gz</li><li>protobuf-2.5.0.tar.gz（序列化的框架）</li></ol><h2 id="jar包安装"><a href="#jar包安装" class="headerlink" title="jar包安装"></a>jar包安装</h2><ol><li><p>JDK解压，配置环境变量JAVA_HOME和PATH</p><blockquote><p>#JAVA_HOME：</p><p>export JAVA_HOME=/opt/module/jdk1.8.0_144</p><p>export PATH=$PATH:$JAVA_HOME/bin</p></blockquote><p>source /etc/profile进行生效</p></li><li><p>Maven解压，配置MAVEN_HOME和PATH</p><blockquote><p>[root@hadoop101 software]# tar -zxvf apache-maven-3.0.5-bin.tar.gz -C /opt/module/</p><p>[root@hadoop101 apache-maven-3.0.5]# vi conf/settings.xml</p><mirrors><p>​<mirror></mirror></p><p>​<id>nexus-aliyun</id></p><p>​<mirrorof>central</mirrorof></p><p>​<name>Nexus aliyun</name></p><p>​<url><a href="http://maven.aliyun.com/nexus/content/groups/public" target="_blank" rel="noopener">http://maven.aliyun.com/nexus/content/groups/public</a></url></p><p>​</p></mirrors><p>[root@hadoop101 apache-maven-3.0.5]# vi /etc/profile</p><p>#MAVEN_HOME</p><p>export MAVEN_HOME=/opt/module/apache-maven-3.0.5</p><p>export PATH=$PATH:$MAVEN_HOME/bin</p><p>[root@hadoop101 software]#source /etc/profile</p></blockquote><p><strong>验证命令：mvn-version</strong></p></li><li><p>ant解压、配置 ANT _HOME和PATH</p><blockquote><p>[root@hadoop101 software]# tar -zxvf apache-ant-1.9.9-bin.tar.gz -C /opt/module/</p><p>[root@hadoop101 apache-ant-1.9.9]# vi /etc/profile</p><p>#ANT_HOME</p><p>export ANT_HOME=/opt/module/apache-ant-1.9.9</p><p>export PATH=$PATH:$ANT_HOME/bi</p><p>[root@hadoop101 software]#source /etc/profile</p></blockquote></li><li><p>安装 glibc-headers 和 g++ 命令如下</p><blockquote><p>[root@hadoop101 apache-ant-1.9.9]# yum install glibc-headers</p><p>[root@hadoop101 apache-ant-1.9.9]# yum install gcc-c++</p></blockquote></li><li><p>安装make和cmake</p><blockquote><p>[root@hadoop101 apache-ant-1.9.9]# yum install make</p><p>[root@hadoop101 apache-ant-1.9.9]# yum install cmake</p></blockquote></li><li><p>解压protobuf ，进入到解压后protobuf主目录，/opt/module/protobuf-2.5.0，然后相继执行命令</p><blockquote><p>[root@hadoop101 software]# tar -zxvf protobuf-2.5.0.tar.gz -C /opt/module/</p><p>[root@hadoop101 opt]# cd /opt/module/protobuf-2.5.0/</p><p>[root@hadoop101 protobuf-2.5.0]#./configure</p><p>[root@hadoop101 protobuf-2.5.0]# make</p><p>[root@hadoop101 protobuf-2.5.0]# make check</p><p>[root@hadoop101 protobuf-2.5.0]# make install</p><p>[root@hadoop101 protobuf-2.5.0]# ldconfig</p><p>[root@hadoop101 hadoop-dist]# vi /etc/profile</p><p>#LD_LIBRARY_PATH</p><p>export LD_LIBRARY_PATH=/opt/module/protobuf-2.5.0</p><p>export PATH=$PATH:$LD_LIBRARY_PATH</p><p>[root@hadoop101 software]#source /etc/profile</p></blockquote></li><li><p>安装openssl库</p><blockquote><p>[root@hadoop101 software]#yum install openssl-devel</p></blockquote></li><li><p>安装 ncurses-devel库</p><blockquote><p>[root@hadoop101 software]#yum install ncurses-devel</p></blockquote></li></ol><h2 id="编译源码"><a href="#编译源码" class="headerlink" title="编译源码"></a>编译源码</h2><ol><li><p>解压源码到/opt/目录</p><blockquote><p>tar -zxvf hadoop-2.7.2-src.tar.gz -C /opt/</p></blockquote></li><li><p>进入源码主目录</p></li><li><p>通过maven执行编译命令</p><blockquote><p>mvn package -Pdist,native -DskipTests -Dtar</p></blockquote></li></ol><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Wed Feb 12 2020 23:06:58 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;jar包准备&quot;&gt;&lt;a href=&quot;#jar包准备&quot; class=&quot;headerlink&quot; title=&quot;jar包准备&quot;&gt;&lt;/a&gt;jar
+      
+    
+    </summary>
+    
+    
+      <category term="Hadoop" scheme="http://kiedeng.github.io/categories/Hadoop/"/>
+    
+    
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
+    
+  </entry>
   
   <entry>
     <title>软件推荐</title>

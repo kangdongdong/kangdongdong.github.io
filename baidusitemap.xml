@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://kiedeng.github.io/2020/02/10/hadoop%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA/</loc>
+    <loc>http://kiedeng.github.io/2020/02/14/HDFS-2-X%E6%96%B0%E7%89%B9%E6%80%A7/</loc>
+    <lastmod>2020-02-13</lastmod>
+  </url>  <url>
+    <loc>http://kiedeng.github.io/2020/02/14/NN%E4%B8%8EDataNode/</loc>
     <lastmod>2020-02-13</lastmod>
   </url>  <url>
     <loc>http://kiedeng.github.io/2020/02/13/HDFS%E7%9A%84%E6%95%B0%E6%8D%AE%E6%B5%81/</loc>
+    <lastmod>2020-02-13</lastmod>
+  </url>  <url>
+    <loc>http://kiedeng.github.io/2020/02/10/hadoop%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2020-02-13</lastmod>
   </url>  <url>
     <loc>http://kiedeng.github.io/2020/02/13/HDFS%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%93%8D%E4%BD%9C/</loc>

@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://blog.kiedeng.site/"/>
+  <link href="http://kiedeng.github.io/"/>
   <updated>2020-05-17T09:14:14.771Z</updated>
-  <id>https://blog.kiedeng.site/</id>
+  <id>http://kiedeng.github.io/</id>
   
   <author>
     <name>康栋</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>数据采集模块</title>
-    <link href="https://blog.kiedeng.site/2020/05/17/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E6%A8%A1%E5%9D%97/"/>
-    <id>https://blog.kiedeng.site/2020/05/17/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E6%A8%A1%E5%9D%97/</id>
+    <link href="http://kiedeng.github.io/2020/05/17/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E6%A8%A1%E5%9D%97/"/>
+    <id>http://kiedeng.github.io/2020/05/17/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E6%A8%A1%E5%9D%97/</id>
     <published>2020-05-17T07:01:50.000Z</published>
     <updated>2020-05-17T09:14:14.771Z</updated>
     
@@ -35,17 +35,17 @@
     </summary>
     
     
-      <category term="hadoop" scheme="https://blog.kiedeng.site/categories/hadoop/"/>
+      <category term="hadoop" scheme="http://kiedeng.github.io/categories/hadoop/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>安装superset</title>
-    <link href="https://blog.kiedeng.site/2020/05/17/%E5%AE%89%E8%A3%85superset/"/>
-    <id>https://blog.kiedeng.site/2020/05/17/%E5%AE%89%E8%A3%85superset/</id>
+    <link href="http://kiedeng.github.io/2020/05/17/%E5%AE%89%E8%A3%85superset/"/>
+    <id>http://kiedeng.github.io/2020/05/17/%E5%AE%89%E8%A3%85superset/</id>
     <published>2020-05-17T02:31:34.000Z</published>
     <updated>2020-05-17T02:47:16.263Z</updated>
     
@@ -61,17 +61,17 @@
     </summary>
     
     
-      <category term="安装" scheme="https://blog.kiedeng.site/categories/%E5%AE%89%E8%A3%85/"/>
+      <category term="安装" scheme="http://kiedeng.github.io/categories/%E5%AE%89%E8%A3%85/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>azkaban安装部署</title>
-    <link href="https://blog.kiedeng.site/2020/05/15/azkaban%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/"/>
-    <id>https://blog.kiedeng.site/2020/05/15/azkaban%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/</id>
+    <link href="http://kiedeng.github.io/2020/05/15/azkaban%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/"/>
+    <id>http://kiedeng.github.io/2020/05/15/azkaban%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/</id>
     <published>2020-05-15T09:12:43.000Z</published>
     <updated>2020-05-16T10:01:11.193Z</updated>
     
@@ -87,17 +87,17 @@
     </summary>
     
     
-      <category term="Azkaba" scheme="https://blog.kiedeng.site/categories/Azkaba/"/>
+      <category term="Azkaba" scheme="http://kiedeng.github.io/categories/Azkaba/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>常见命令行操作</title>
-    <link href="https://blog.kiedeng.site/2020/05/13/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%93%8D%E4%BD%9C/"/>
-    <id>https://blog.kiedeng.site/2020/05/13/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%93%8D%E4%BD%9C/</id>
+    <link href="http://kiedeng.github.io/2020/05/13/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%93%8D%E4%BD%9C/"/>
+    <id>http://kiedeng.github.io/2020/05/13/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%93%8D%E4%BD%9C/</id>
     <published>2020-05-13T08:25:07.000Z</published>
     <updated>2020-05-13T09:40:20.395Z</updated>
     
@@ -113,17 +113,17 @@
     </summary>
     
     
-      <category term="大数据" scheme="https://blog.kiedeng.site/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+      <category term="大数据" scheme="http://kiedeng.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>主题的美化</title>
-    <link href="https://blog.kiedeng.site/2020/05/05/%E4%B8%BB%E9%A2%98%E7%9A%84%E7%BE%8E%E5%8C%96/"/>
-    <id>https://blog.kiedeng.site/2020/05/05/%E4%B8%BB%E9%A2%98%E7%9A%84%E7%BE%8E%E5%8C%96/</id>
+    <link href="http://kiedeng.github.io/2020/05/05/%E4%B8%BB%E9%A2%98%E7%9A%84%E7%BE%8E%E5%8C%96/"/>
+    <id>http://kiedeng.github.io/2020/05/05/%E4%B8%BB%E9%A2%98%E7%9A%84%E7%BE%8E%E5%8C%96/</id>
     <published>2020-05-05T11:28:19.000Z</published>
     <updated>2020-05-06T13:22:42.344Z</updated>
     
@@ -139,17 +139,17 @@
     </summary>
     
     
-      <category term="typecho" scheme="https://blog.kiedeng.site/categories/typecho/"/>
+      <category term="typecho" scheme="http://kiedeng.github.io/categories/typecho/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>ArrayList源码分析</title>
-    <link href="https://blog.kiedeng.site/2020/04/20/ArrayList%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
-    <id>https://blog.kiedeng.site/2020/04/20/ArrayList%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</id>
+    <link href="http://kiedeng.github.io/2020/04/20/ArrayList%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+    <id>http://kiedeng.github.io/2020/04/20/ArrayList%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</id>
     <published>2020-04-20T04:22:21.000Z</published>
     <updated>2020-04-20T04:22:21.542Z</updated>
     
@@ -165,17 +165,17 @@
     </summary>
     
     
-      <category term="未分类" scheme="https://blog.kiedeng.site/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
+      <category term="未分类" scheme="http://kiedeng.github.io/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>hql常见函数</title>
-    <link href="https://blog.kiedeng.site/2020/03/19/hql%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/"/>
-    <id>https://blog.kiedeng.site/2020/03/19/hql%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/</id>
+    <link href="http://kiedeng.github.io/2020/03/19/hql%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/"/>
+    <id>http://kiedeng.github.io/2020/03/19/hql%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/</id>
     <published>2020-03-19T07:27:35.000Z</published>
     <updated>2020-03-19T07:28:42.883Z</updated>
     
@@ -191,17 +191,17 @@
     </summary>
     
     
-      <category term="未分类" scheme="https://blog.kiedeng.site/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
+      <category term="未分类" scheme="http://kiedeng.github.io/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>HQL常见错误</title>
-    <link href="https://blog.kiedeng.site/2020/03/18/HQL%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/"/>
-    <id>https://blog.kiedeng.site/2020/03/18/HQL%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/</id>
+    <link href="http://kiedeng.github.io/2020/03/18/HQL%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/"/>
+    <id>http://kiedeng.github.io/2020/03/18/HQL%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/</id>
     <published>2020-03-18T14:03:47.000Z</published>
     <updated>2020-03-18T15:13:59.298Z</updated>
     
@@ -217,17 +217,17 @@
     </summary>
     
     
-      <category term="hive" scheme="https://blog.kiedeng.site/categories/hive/"/>
+      <category term="hive" scheme="http://kiedeng.github.io/categories/hive/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>简介</title>
-    <link href="https://blog.kiedeng.site/2020/03/18/%E7%AE%80%E4%BB%8B/"/>
-    <id>https://blog.kiedeng.site/2020/03/18/%E7%AE%80%E4%BB%8B/</id>
+    <link href="http://kiedeng.github.io/2020/03/18/%E7%AE%80%E4%BB%8B/"/>
+    <id>http://kiedeng.github.io/2020/03/18/%E7%AE%80%E4%BB%8B/</id>
     <published>2020-03-18T14:03:31.000Z</published>
     <updated>2021-03-05T14:09:02.462Z</updated>
     
@@ -243,17 +243,17 @@
     </summary>
     
     
-      <category term="成长" scheme="https://blog.kiedeng.site/categories/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://kiedeng.github.io/categories/%E6%88%90%E9%95%BF/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>mongdb导入json文件</title>
-    <link href="https://blog.kiedeng.site/2020/03/18/mongdb%E5%AF%BC%E5%85%A5json%E6%96%87%E4%BB%B6/"/>
-    <id>https://blog.kiedeng.site/2020/03/18/mongdb%E5%AF%BC%E5%85%A5json%E6%96%87%E4%BB%B6/</id>
+    <link href="http://kiedeng.github.io/2020/03/18/mongdb%E5%AF%BC%E5%85%A5json%E6%96%87%E4%BB%B6/"/>
+    <id>http://kiedeng.github.io/2020/03/18/mongdb%E5%AF%BC%E5%85%A5json%E6%96%87%E4%BB%B6/</id>
     <published>2020-03-18T04:22:00.000Z</published>
     <updated>2020-03-18T04:29:16.461Z</updated>
     
@@ -269,17 +269,17 @@
     </summary>
     
     
-      <category term="mongdb" scheme="https://blog.kiedeng.site/categories/mongdb/"/>
+      <category term="mongdb" scheme="http://kiedeng.github.io/categories/mongdb/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>hive使用mysql编码问题</title>
-    <link href="https://blog.kiedeng.site/2020/03/17/hive%E4%BD%BF%E7%94%A8mysql%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/"/>
-    <id>https://blog.kiedeng.site/2020/03/17/hive%E4%BD%BF%E7%94%A8mysql%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</id>
+    <link href="http://kiedeng.github.io/2020/03/17/hive%E4%BD%BF%E7%94%A8mysql%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/"/>
+    <id>http://kiedeng.github.io/2020/03/17/hive%E4%BD%BF%E7%94%A8mysql%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</id>
     <published>2020-03-17T10:58:22.000Z</published>
     <updated>2020-03-17T11:07:52.618Z</updated>
     
@@ -295,17 +295,17 @@
     </summary>
     
     
-      <category term="hive" scheme="https://blog.kiedeng.site/categories/hive/"/>
+      <category term="hive" scheme="http://kiedeng.github.io/categories/hive/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>mysql安装</title>
-    <link href="https://blog.kiedeng.site/2020/03/16/mysql%E5%AE%89%E8%A3%85/"/>
-    <id>https://blog.kiedeng.site/2020/03/16/mysql%E5%AE%89%E8%A3%85/</id>
+    <link href="http://kiedeng.github.io/2020/03/16/mysql%E5%AE%89%E8%A3%85/"/>
+    <id>http://kiedeng.github.io/2020/03/16/mysql%E5%AE%89%E8%A3%85/</id>
     <published>2020-03-16T10:35:24.000Z</published>
     <updated>2020-03-16T11:32:24.560Z</updated>
     
@@ -321,17 +321,17 @@
     </summary>
     
     
-      <category term="Linux" scheme="https://blog.kiedeng.site/categories/Linux/"/>
+      <category term="Linux" scheme="http://kiedeng.github.io/categories/Linux/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>大数据相关单词</title>
-    <link href="https://blog.kiedeng.site/2020/03/16/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%8D%95%E8%AF%8D/"/>
-    <id>https://blog.kiedeng.site/2020/03/16/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%8D%95%E8%AF%8D/</id>
+    <link href="http://kiedeng.github.io/2020/03/16/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%8D%95%E8%AF%8D/"/>
+    <id>http://kiedeng.github.io/2020/03/16/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%8D%95%E8%AF%8D/</id>
     <published>2020-03-16T10:21:50.000Z</published>
     <updated>2020-03-16T16:37:30.491Z</updated>
     
@@ -347,17 +347,17 @@
     </summary>
     
     
-      <category term="hive" scheme="https://blog.kiedeng.site/categories/hive/"/>
+      <category term="hive" scheme="http://kiedeng.github.io/categories/hive/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>Hadoop_HA高可用</title>
-    <link href="https://blog.kiedeng.site/2020/03/08/Hadoop-HA%E9%AB%98%E5%8F%AF%E7%94%A8/"/>
-    <id>https://blog.kiedeng.site/2020/03/08/Hadoop-HA%E9%AB%98%E5%8F%AF%E7%94%A8/</id>
+    <link href="http://kiedeng.github.io/2020/03/08/Hadoop-HA%E9%AB%98%E5%8F%AF%E7%94%A8/"/>
+    <id>http://kiedeng.github.io/2020/03/08/Hadoop-HA%E9%AB%98%E5%8F%AF%E7%94%A8/</id>
     <published>2020-03-08T05:52:37.000Z</published>
     <updated>2020-03-08T09:19:37.481Z</updated>
     
@@ -373,17 +373,17 @@
     </summary>
     
     
-      <category term="Hadoop" scheme="https://blog.kiedeng.site/categories/Hadoop/"/>
+      <category term="Hadoop" scheme="http://kiedeng.github.io/categories/Hadoop/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>shell脚本文件</title>
-    <link href="https://blog.kiedeng.site/2020/03/08/shell%E8%84%9A%E6%9C%AC%E6%96%87%E4%BB%B6/"/>
-    <id>https://blog.kiedeng.site/2020/03/08/shell%E8%84%9A%E6%9C%AC%E6%96%87%E4%BB%B6/</id>
+    <link href="http://kiedeng.github.io/2020/03/08/shell%E8%84%9A%E6%9C%AC%E6%96%87%E4%BB%B6/"/>
+    <id>http://kiedeng.github.io/2020/03/08/shell%E8%84%9A%E6%9C%AC%E6%96%87%E4%BB%B6/</id>
     <published>2020-03-07T16:39:20.000Z</published>
     <updated>2020-03-07T16:41:48.903Z</updated>
     
@@ -399,17 +399,17 @@
     </summary>
     
     
-      <category term="Linux" scheme="https://blog.kiedeng.site/categories/Linux/"/>
+      <category term="Linux" scheme="http://kiedeng.github.io/categories/Linux/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>shell操作</title>
-    <link href="https://blog.kiedeng.site/2020/03/07/shell%E6%93%8D%E4%BD%9C/"/>
-    <id>https://blog.kiedeng.site/2020/03/07/shell%E6%93%8D%E4%BD%9C/</id>
+    <link href="http://kiedeng.github.io/2020/03/07/shell%E6%93%8D%E4%BD%9C/"/>
+    <id>http://kiedeng.github.io/2020/03/07/shell%E6%93%8D%E4%BD%9C/</id>
     <published>2020-03-07T09:28:34.000Z</published>
     <updated>2020-03-08T05:39:36.259Z</updated>
     
@@ -425,17 +425,17 @@
     </summary>
     
     
-      <category term="Linux" scheme="https://blog.kiedeng.site/categories/Linux/"/>
+      <category term="Linux" scheme="http://kiedeng.github.io/categories/Linux/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>Zookeeper</title>
-    <link href="https://blog.kiedeng.site/2020/03/04/Zookeeper/"/>
-    <id>https://blog.kiedeng.site/2020/03/04/Zookeeper/</id>
+    <link href="http://kiedeng.github.io/2020/03/04/Zookeeper/"/>
+    <id>http://kiedeng.github.io/2020/03/04/Zookeeper/</id>
     <published>2020-03-04T05:09:50.000Z</published>
     <updated>2020-03-08T05:30:50.554Z</updated>
     
@@ -451,17 +451,17 @@
     </summary>
     
     
-      <category term="Zookeeper" scheme="https://blog.kiedeng.site/categories/Zookeeper/"/>
+      <category term="Zookeeper" scheme="http://kiedeng.github.io/categories/Zookeeper/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>数据压缩</title>
-    <link href="https://blog.kiedeng.site/2020/03/01/%E6%95%B0%E6%8D%AE%E5%8E%8B%E7%BC%A9/"/>
-    <id>https://blog.kiedeng.site/2020/03/01/%E6%95%B0%E6%8D%AE%E5%8E%8B%E7%BC%A9/</id>
+    <link href="http://kiedeng.github.io/2020/03/01/%E6%95%B0%E6%8D%AE%E5%8E%8B%E7%BC%A9/"/>
+    <id>http://kiedeng.github.io/2020/03/01/%E6%95%B0%E6%8D%AE%E5%8E%8B%E7%BC%A9/</id>
     <published>2020-03-01T04:39:39.000Z</published>
     <updated>2020-03-01T09:04:22.605Z</updated>
     
@@ -477,17 +477,17 @@
     </summary>
     
     
-      <category term="Hadoop" scheme="https://blog.kiedeng.site/categories/Hadoop/"/>
+      <category term="Hadoop" scheme="http://kiedeng.github.io/categories/Hadoop/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>MapReduce框架原理</title>
-    <link href="https://blog.kiedeng.site/2020/02/29/MapReduce%E6%A1%86%E6%9E%B6%E5%8E%9F%E7%90%86/"/>
-    <id>https://blog.kiedeng.site/2020/02/29/MapReduce%E6%A1%86%E6%9E%B6%E5%8E%9F%E7%90%86/</id>
+    <link href="http://kiedeng.github.io/2020/02/29/MapReduce%E6%A1%86%E6%9E%B6%E5%8E%9F%E7%90%86/"/>
+    <id>http://kiedeng.github.io/2020/02/29/MapReduce%E6%A1%86%E6%9E%B6%E5%8E%9F%E7%90%86/</id>
     <published>2020-02-29T09:08:56.000Z</published>
     <updated>2020-02-29T13:57:55.988Z</updated>
     
@@ -503,17 +503,17 @@
     </summary>
     
     
-      <category term="Hadoop" scheme="https://blog.kiedeng.site/categories/Hadoop/"/>
+      <category term="Hadoop" scheme="http://kiedeng.github.io/categories/Hadoop/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
   <entry>
     <title>bean对象没有序列化</title>
-    <link href="https://blog.kiedeng.site/2020/02/29/bean%E5%AF%B9%E8%B1%A1%E6%B2%A1%E6%9C%89%E5%BA%8F%E5%88%97%E5%8C%96/"/>
-    <id>https://blog.kiedeng.site/2020/02/29/bean%E5%AF%B9%E8%B1%A1%E6%B2%A1%E6%9C%89%E5%BA%8F%E5%88%97%E5%8C%96/</id>
+    <link href="http://kiedeng.github.io/2020/02/29/bean%E5%AF%B9%E8%B1%A1%E6%B2%A1%E6%9C%89%E5%BA%8F%E5%88%97%E5%8C%96/"/>
+    <id>http://kiedeng.github.io/2020/02/29/bean%E5%AF%B9%E8%B1%A1%E6%B2%A1%E6%9C%89%E5%BA%8F%E5%88%97%E5%8C%96/</id>
     <published>2020-02-29T08:39:08.000Z</published>
     <updated>2020-02-29T08:54:00.899Z</updated>
     
@@ -529,10 +529,10 @@
     </summary>
     
     
-      <category term="常见错误" scheme="https://blog.kiedeng.site/categories/%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/"/>
+      <category term="常见错误" scheme="http://kiedeng.github.io/categories/%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/"/>
     
     
-      <category term="默认" scheme="https://blog.kiedeng.site/tags/%E9%BB%98%E8%AE%A4/"/>
+      <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   

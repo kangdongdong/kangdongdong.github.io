@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kiedeng.site/2020/03/18/%E7%AE%80%E4%BB%8B/</loc>
+    
+    <lastmod>2021-03-05T14:09:02.462Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.kiedeng.site/about/index.html</loc>
     
-    <lastmod>2021-03-05T13:10:58.678Z</lastmod>
+    <lastmod>2021-03-05T13:56:45.863Z</lastmod>
     
   </url>
   
@@ -82,20 +89,6 @@
     <loc>https://blog.kiedeng.site/2020/03/18/HQL%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/</loc>
     
     <lastmod>2020-03-18T15:13:59.298Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.kiedeng.site/2020/03/18/hive%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
-    
-    <lastmod>2020-03-18T14:15:52.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.kiedeng.site/2020/03/18/hive%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/</loc>
-    
-    <lastmod>2020-03-18T14:03:31.318Z</lastmod>
     
   </url>
   

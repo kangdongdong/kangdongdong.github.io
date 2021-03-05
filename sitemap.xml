@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kiedeng.github.io/about/index.html</loc>
+    
+    <lastmod>2021-03-05T12:45:26.818Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kiedeng.github.io/tags/index-1.html</loc>
     
     <lastmod>2021-03-05T08:28:42.193Z</lastmod>
@@ -138,13 +145,6 @@
     <loc>http://kiedeng.github.io/2020/03/08/shell%E8%84%9A%E6%9C%AC%E6%96%87%E4%BB%B6/</loc>
     
     <lastmod>2020-03-07T16:41:48.903Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kiedeng.github.io/about/index.html</loc>
-    
-    <lastmod>2020-03-02T07:13:37.355Z</lastmod>
     
   </url>
   

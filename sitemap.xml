@@ -401,14 +401,14 @@
   </url>
   
   <url>
-    <loc>http://kiedeng.github.io/books/index.html</loc>
+    <loc>http://kiedeng.github.io/categories/index.html</loc>
     
     <lastmod>2020-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kiedeng.github.io/categories/index.html</loc>
+    <loc>http://kiedeng.github.io/books/index.html</loc>
     
     <lastmod>2020-02-09</lastmod>
     
@@ -431,14 +431,14 @@
   </url>
   
   <url>
-    <loc>http://kiedeng.github.io/tags/%E5%8E%9F%E7%90%86/</loc>
+    <loc>http://kiedeng.github.io/tags/%E4%BB%A3%E7%A0%81/</loc>
     <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://kiedeng.github.io/tags/%E4%BB%A3%E7%A0%81/</loc>
+    <loc>http://kiedeng.github.io/tags/%E5%8E%9F%E7%90%86/</loc>
     <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -501,20 +501,6 @@
   </url>
   
   <url>
-    <loc>http://kiedeng.github.io/tags/Hadoop/</loc>
-    <lastmod>2021-05-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://kiedeng.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</loc>
-    <lastmod>2021-05-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://kiedeng.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
@@ -523,6 +509,20 @@
   
   <url>
     <loc>http://kiedeng.github.io/tags/hexo/</loc>
+    <lastmod>2021-05-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://kiedeng.github.io/tags/Hadoop/</loc>
+    <lastmod>2021-05-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://kiedeng.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</loc>
     <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -622,13 +622,6 @@
   </url>
   
   <url>
-    <loc>http://kiedeng.github.io/categories/MySQL/</loc>
-    <lastmod>2021-05-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://kiedeng.github.io/categories/Azkaba/</loc>
     <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
@@ -636,7 +629,7 @@
   </url>
   
   <url>
-    <loc>http://kiedeng.github.io/categories/Linux/</loc>
+    <loc>http://kiedeng.github.io/categories/MySQL/</loc>
     <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -644,6 +637,13 @@
   
   <url>
     <loc>http://kiedeng.github.io/categories/mongdb/</loc>
+    <lastmod>2021-05-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://kiedeng.github.io/categories/Linux/</loc>
     <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -692,14 +692,14 @@
   </url>
   
   <url>
-    <loc>http://kiedeng.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>http://kiedeng.github.io/categories/%E6%88%90%E9%95%BF/</loc>
     <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://kiedeng.github.io/categories/%E6%88%90%E9%95%BF/</loc>
+    <loc>http://kiedeng.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

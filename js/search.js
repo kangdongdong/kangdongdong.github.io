@@ -1,3 +1,85 @@
-// build time:Fri Mar 05 2021 22:20:54 GMT+0800 (GMT+08:00)
-(function(){var e=window||this,t=e.BLOG.even,n=e.BLOG.$,i=n("#search"),s=n("#search-wrap"),r=n("#key"),a=n("#back"),o=n("#search-panel"),c=n("#search-result"),u=n("#search-tpl").innerHTML,l=(e.BLOG.ROOT+"/content.json").replace(/\/{2}/g,"/"),f;function d(e){if(!f){var t=new XMLHttpRequest;t.open("GET",l,true);t.onload=function(){if(this.status>=200&&this.status<300){var t=JSON.parse(this.response);f=t instanceof Array?t:t.posts;e(f)}else{console.error(this.statusText)}};t.onerror=function(){console.error(this.statusText)};t.send()}else{e(f)}}function p(e,t){return e.replace(/\{\w+\}/g,function(e){var n=e.replace(/\{|\}/g,"");return t[n]||""})}var h=e.BLOG.noop;var v=n("html");var L={show:function(){e.innerWidth<760?v.classList.add("lock-size"):h;o.classList.add("in")},hide:function(){e.innerWidth<760?v.classList.remove("lock-size"):h;o.classList.remove("in")}};function g(t){var n="";if(t.length){n=t.map(function(t){return p(u,{title:t.title,path:(e.BLOG.ROOT+"/"+t.path).replace(/\/{2,}/g,"/"),date:new Date(t.date).toLocaleDateString(),tags:t.tags.map(function(e){return"<span>#"+e.name+"</span>"}).join("")})}).join("")}else{n='<li class="tips"><i class="icon icon-coffee icon-3x"></i><p>Results not found!</p></li>'}c.innerHTML=n}function m(e,t){t.lastIndex=0;return t.test(e)}function O(e,t){return m(e.title,t)||e.tags.some(function(e){return m(e.name,t)})||m(e.text,t)}function w(e){var t=this.value.trim();if(!t){return}var n=new RegExp(t.replace(/[ ]/g,"|"),"gmi");d(function(e){var t=e.filter(function(e){return O(e,n)});g(t);L.show()});e.preventDefault()}i.addEventListener(t,function(){s.classList.toggle("in");r.value="";s.classList.contains("in")?r.focus():r.blur()});a.addEventListener(t,function(){s.classList.remove("in");L.hide()});document.addEventListener(t,function(e){if(e.target.id!=="key"&&t==="click"){L.hide()}});r.addEventListener("input",w);r.addEventListener(t,w)}).call(this);
-//rebuild by neat 
+var searchFunc = function (path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        success: function (xmlResponse) {
+            // get the contents from search data
+            var datas = $("entry", xmlResponse).map(function () {
+                return {
+                    title: $("title", this).text(),
+                    content: $("content", this).text(),
+                    url: $("url", this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function () {
+                var str = '<ul class=\"search-result-list\">';
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length <= 0) {
+                    return;
+                }
+                // perform local searching
+                datas.forEach(function (data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if (data_title != '' && data_content != '') {
+                        keywords.forEach(function (keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if (index_title < 0 && index_content < 0) {
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g, "");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if (start < 0) {
+                                start = 0;
+                            }
+                            if (start == 0) {
+                                end = 100;
+                            }
+                            if (end > content.length) {
+                                end = content.length;
+                            }
+                            var match_content = content.substr(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function (keyword) {
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                            });
+
+                            str += "<p class=\"search-result\">" + match_content + "...</p>"
+                        }
+                        str += "</li>";
+                    }
+                });
+                str += "</ul>";
+                $resultContent.innerHTML = str;
+            });
+        }
+    });
+}

@@ -4,6 +4,106 @@
   
     
     <entry>
+      <title>mongdb基本操作</title>
+      <link href="2021/06/07/mongdb%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+      <url>2021/06/07/mongdb%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-创建数据库"><a href="#1-创建数据库" class="headerlink" title="1 创建数据库"></a>1 创建数据库</h1><pre class="line-numbers language-none"><code class="language-none">use DATABASE_NAME# 删除数据db.dropDatabase()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h1 id="2-创建集合"><a href="#2-创建集合" class="headerlink" title="2 创建集合"></a>2 创建集合</h1><pre class="line-numbers language-none"><code class="language-none">db.createCollection("runoob")# 删除集合db.collection.drop()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h1 id="3-插入文档"><a href="#3-插入文档" class="headerlink" title="3 插入文档"></a>3 插入文档</h1><pre class="line-numbers language-none"><code class="language-none">db.haiyan.insertMany({title: 'MongoDB 教程',     description: 'MongoDB 是一个 Nosql 数据库',    by: '菜鸟教程',    url: 'http://www.runoob.com',    tags: ['mongodb', 'database', 'NoSQL'],    likes: 100})<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h1 id="4-查询文档"><a href="#4-查询文档" class="headerlink" title="4 查询文档"></a>4 查询文档</h1><pre class="line-numbers language-none"><code class="language-none">db.haiyan.find().pretty()<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mongdb </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python连接hive</title>
+      <link href="2021/06/04/python%E8%BF%9E%E6%8E%A5hive/"/>
+      <url>2021/06/04/python%E8%BF%9E%E6%8E%A5hive/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-参考链接"><a href="#1-参考链接" class="headerlink" title="1 参考链接"></a>1 参考链接</h1><p><a href="https://blog.csdn.net/qq_24499745/article/details/90905114">https://blog.csdn.net/qq_24499745/article/details/90905114</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 未分类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 默认 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>anaconda的操作”</title>
+      <link href="2021/06/04/anaconda%E7%9A%84%E6%93%8D%E4%BD%9C%E2%80%9D/"/>
+      <url>2021/06/04/anaconda%E7%9A%84%E6%93%8D%E4%BD%9C%E2%80%9D/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-创建新环境"><a href="#1-创建新环境" class="headerlink" title="1 创建新环境"></a>1 创建新环境</h1><p><a href="https://blog.csdn.net/zhajinjie/article/details/108948024">https://blog.csdn.net/zhajinjie/article/details/108948024</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 未分类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 默认 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>pycharm中配置pyspark”</title>
+      <link href="2021/06/04/pycharm%E4%B8%AD%E9%85%8D%E7%BD%AEpyspark%E2%80%9D/"/>
+      <url>2021/06/04/pycharm%E4%B8%AD%E9%85%8D%E7%BD%AEpyspark%E2%80%9D/</url>
+      
+        <content type="html"><![CDATA[<p>1 下载官网spark-2.1.1-bin-hadoop2.7.tgz（版本自己选择），解压将文件放在了指定路径下，这个文件夹里面有python文件，python文件下还有两个压缩包py4j-some-version.zip和pyspark.zip，之后会用到）</p><p>2 pycharm使用pyspark时from pyspark import SparkContext，代码依然划红线，运行依然显示没有该模块。</p><p>3 随便打开一个project，pycharm右上角“run”三角形的左边有一个run configurition，打开它。</p><p>4 设置configurition—Environment— Environment variables —点击“…”，出现框框，点击+，输入两个name，一个是SPARK_HOME，另外一个是PYTHONPATH，设置它们的values，SPARK_HOME的value是安装文件夹spark-2.1.1-bin-hadoop2.7的绝对路径，PYTHONPATH的value是该绝对路径／python，例如我的SPARK_HOME的value是/Applications/spark/spark-2.1.1-bin-hadoop2.7，那么我的PYTHONPATH的value是/Applications/spark/spark-2.1.1-bin-hadoop2.7/python 。设置好了保存。（注意不管是路径的哪里，都不能有空格！！尤其是结尾！！今天下午就因为一个空格折磨我好久）</p><p>5 关键的一步。在perferences中的project structure中点击右边的“add  content root”，添加py4j-some-version.zip和pyspark.zip的路径（这两个文件都在Spark中的python文件夹下）</p><p>6 完成，from pyspark import SparkContext，红线消失，运行正常。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 未分类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 默认 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="2021/04/26/beautifulsoup%20%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/"/>
       <url>2021/04/26/beautifulsoup%20%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</url>

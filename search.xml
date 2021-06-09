@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>beautifulsoup总结</title>
+      <link href="2021/06/10/beautifulsoup%E6%80%BB%E7%BB%93/"/>
+      <url>2021/06/10/beautifulsoup%E6%80%BB%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一，导包，读取文档内容"><a href="#一，导包，读取文档内容" class="headerlink" title="一，导包，读取文档内容"></a>一，导包，读取文档内容</h2><pre class="line-numbers language-none"><code class="language-none">from bs4 import BeautifulSoupsoup = BeautifulSoup(text,"lxml")<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="二，基本方法使用"><a href="#二，基本方法使用" class="headerlink" title="二，基本方法使用"></a>二，基本方法使用</h2><pre class="line-numbers language-none"><code class="language-none"># 查找第一个属性为tbody的标签s = soup.find("tbody")# 返回为tag的列表，可以再在进行查找操作s.contents# 返回的类型基本为str，不能进行继续查找操作s.children<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> 包 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mongdb基本操作</title>
       <link href="2021/06/07/mongdb%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
       <url>2021/06/07/mongdb%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
@@ -73,19 +100,6 @@
             <tag> 默认 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="2021/04/26/beautifulsoup%20%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/"/>
-      <url>2021/04/26/beautifulsoup%20%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</url>
-      
-        <content type="html"><![CDATA[<p>beautifulsoup 知识点总结</p><h2 id="一，导包，读取文档内容"><a href="#一，导包，读取文档内容" class="headerlink" title="一，导包，读取文档内容"></a>一，导包，读取文档内容</h2><pre class="line-numbers language-none"><code class="language-none">from bs4 import BeautifulSoupsoup = BeautifulSoup(text,"lxml")<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="二，基本方法使用"><a href="#二，基本方法使用" class="headerlink" title="二，基本方法使用"></a>二，基本方法使用</h2><pre class="line-numbers language-none"><code class="language-none"># 查找第一个属性为tbody的标签s = soup.find("tbody")# 返回为tag的列表，可以再在进行查找操作s.contents# 返回的类型基本为str，不能进行继续查找操作s.children<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-      
-      
       
     </entry>
     

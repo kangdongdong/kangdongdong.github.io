@@ -6,7 +6,7 @@
   <link href="http://kiedeng.github.io/atom.xml" rel="self"/>
   
   <link href="http://kiedeng.github.io/"/>
-  <updated>2021-06-07T05:44:24.429Z</updated>
+  <updated>2021-06-09T17:36:03.487Z</updated>
   <id>http://kiedeng.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>beautifulsoup总结</title>
+    <link href="http://kiedeng.github.io/2021/06/10/beautifulsoup%E6%80%BB%E7%BB%93/"/>
+    <id>http://kiedeng.github.io/2021/06/10/beautifulsoup%E6%80%BB%E7%BB%93/</id>
+    <published>2021-06-09T17:35:09.000Z</published>
+    <updated>2021-06-09T17:36:03.487Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一，导包，读取文档内容"><a href="#一，导包，读取文档内容" class="headerlink" title="一，导包，读取文档内容"></a>一，导包，读取文档内容</h2><pre class="line-numbers language-none"><code class="language-none">from bs4 import BeautifulSoupsoup = BeautifulSoup(text,"lxml")<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="二，基本方法使用"><a href="#二，基本方法使用" class="headerlink" title="二，基本方法使用"></a>二，基本方法使用</h2><pre class="line-numbers language-none"><code class="language-none"># 查找第一个属性为tbody的标签s = soup.find("tbody")# 返回为tag的列表，可以再在进行查找操作s.contents# 返回的类型基本为str，不能进行继续查找操作s.children<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;一，导包，读取文档内容&quot;&gt;&lt;a href=&quot;#一，导包，读取文档内容&quot; class=&quot;headerlink&quot; title=&quot;一，导包，读取文档内容&quot;&gt;&lt;/a&gt;一，导包，读取文档内容&lt;/h2&gt;&lt;pre class=&quot;line-numbers language-non</summary>
+      
+    
+    
+    
+    <category term="python" scheme="http://kiedeng.github.io/categories/python/"/>
+    
+    
+    <category term="python" scheme="http://kiedeng.github.io/tags/python/"/>
+    
+    <category term="包" scheme="http://kiedeng.github.io/tags/%E5%8C%85/"/>
+    
+  </entry>
   
   <entry>
     <title>mongdb基本操作</title>
@@ -86,27 +112,6 @@
     
     
     <category term="默认" scheme="http://kiedeng.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://kiedeng.github.io/2021/04/26/beautifulsoup%20%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/"/>
-    <id>http://kiedeng.github.io/2021/04/26/beautifulsoup%20%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</id>
-    <published>2021-04-26T04:49:12.554Z</published>
-    <updated>2021-04-27T08:27:42.231Z</updated>
-    
-    <content type="html"><![CDATA[<p>beautifulsoup 知识点总结</p><h2 id="一，导包，读取文档内容"><a href="#一，导包，读取文档内容" class="headerlink" title="一，导包，读取文档内容"></a>一，导包，读取文档内容</h2><pre class="line-numbers language-none"><code class="language-none">from bs4 import BeautifulSoupsoup = BeautifulSoup(text,"lxml")<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="二，基本方法使用"><a href="#二，基本方法使用" class="headerlink" title="二，基本方法使用"></a>二，基本方法使用</h2><pre class="line-numbers language-none"><code class="language-none"># 查找第一个属性为tbody的标签s = soup.find("tbody")# 返回为tag的列表，可以再在进行查找操作s.contents# 返回的类型基本为str，不能进行继续查找操作s.children<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;beautifulsoup 知识点总结&lt;/p&gt;
-&lt;h2 id=&quot;一，导包，读取文档内容&quot;&gt;&lt;a href=&quot;#一，导包，读取文档内容&quot; class=&quot;headerlink&quot; title=&quot;一，导包，读取文档内容&quot;&gt;&lt;/a&gt;一，导包，读取文档内容&lt;/h2&gt;&lt;pre class</summary>
-      
-    
-    
-    
     
   </entry>
   

@@ -29,36 +29,11 @@
     
     
     <entry>
-      <title>python连接hive</title>
-      <link href="2021/06/04/python%E8%BF%9E%E6%8E%A5hive/"/>
-      <url>2021/06/04/python%E8%BF%9E%E6%8E%A5hive/</url>
+      <title>anaconda的操作</title>
+      <link href="2021/06/04/anaconda%E7%9A%84%E6%93%8D%E4%BD%9C/"/>
+      <url>2021/06/04/anaconda%E7%9A%84%E6%93%8D%E4%BD%9C/</url>
       
-        <content type="html"><![CDATA[<h1 id="1-参考链接"><a href="#1-参考链接" class="headerlink" title="1 参考链接"></a>1 参考链接</h1><p><a href="https://blog.csdn.net/qq_24499745/article/details/90905114">https://blog.csdn.net/qq_24499745/article/details/90905114</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 未分类 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>anaconda的操作”</title>
-      <link href="2021/06/04/anaconda%E7%9A%84%E6%93%8D%E4%BD%9C%E2%80%9D/"/>
-      <url>2021/06/04/anaconda%E7%9A%84%E6%93%8D%E4%BD%9C%E2%80%9D/</url>
-      
-        <content type="html"><![CDATA[<h1 id="1-创建新环境"><a href="#1-创建新环境" class="headerlink" title="1 创建新环境"></a>1 创建新环境</h1><p><a href="https://blog.csdn.net/zhajinjie/article/details/108948024">https://blog.csdn.net/zhajinjie/article/details/108948024</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="1-创建新环境"><a href="#1-创建新环境" class="headerlink" title="1 创建新环境"></a>1 创建新环境</h1><p><a href="https://blog.csdn.net/zhajinjie/article/details/108948024">https://blog.csdn.net/zhajinjie/article/details/108948024</a></p><h2 id="2-不能使用jupter"><a href="#2-不能使用jupter" class="headerlink" title="2 不能使用jupter"></a>2 不能使用jupter</h2><p>安装了Python 2的Anaconda和Python 3的Anaconda(Windows都安装了64位)。如果我用 Jupyter Notebook 运行Python 2 一切都很好，但是对于Python 3，它不起作用</p><pre class="line-numbers language-none"><code class="language-none">pip uninstall pyzmq pip install pyzmq.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="3-修改anaconda默认的打开路径"><a href="#3-修改anaconda默认的打开路径" class="headerlink" title="3 修改anaconda默认的打开路径"></a>3 修改anaconda默认的打开路径</h3><p>使用修改快捷方式的方法改变路径</p><p>　　实现的方法就是修改快捷方式标签的目标栏，如下图：</p><p>　　<img src="https://images2018.cnblogs.com/blog/1405010/201805/1405010-20180523103240157-569682129.png" alt="img"></p><p>后面有一个%USERPROFILE%</p><p>将%USERPROFILE%改成你要的路径就”F:\Jupyter_Data”</p><p>然后应用-&gt;确定</p>]]></content>
       
       
       <categories>
@@ -80,8 +55,8 @@
     
     <entry>
       <title>pycharm中配置pyspark”</title>
-      <link href="2021/06/04/pycharm%E4%B8%AD%E9%85%8D%E7%BD%AEpyspark%E2%80%9D/"/>
-      <url>2021/06/04/pycharm%E4%B8%AD%E9%85%8D%E7%BD%AEpyspark%E2%80%9D/</url>
+      <link href="2021/06/04/pycharm%E4%B8%AD%E9%85%8D%E7%BD%AEpyspark/"/>
+      <url>2021/06/04/pycharm%E4%B8%AD%E9%85%8D%E7%BD%AEpyspark/</url>
       
         <content type="html"><![CDATA[<p>1 下载官网spark-2.1.1-bin-hadoop2.7.tgz（版本自己选择），解压将文件放在了指定路径下，这个文件夹里面有python文件，python文件下还有两个压缩包py4j-some-version.zip和pyspark.zip，之后会用到）</p><p>2 pycharm使用pyspark时from pyspark import SparkContext，代码依然划红线，运行依然显示没有该模块。</p><p>3 随便打开一个project，pycharm右上角“run”三角形的左边有一个run configurition，打开它。</p><p>4 设置configurition—Environment— Environment variables —点击“…”，出现框框，点击+，输入两个name，一个是SPARK_HOME，另外一个是PYTHONPATH，设置它们的values，SPARK_HOME的value是安装文件夹spark-2.1.1-bin-hadoop2.7的绝对路径，PYTHONPATH的value是该绝对路径／python，例如我的SPARK_HOME的value是/Applications/spark/spark-2.1.1-bin-hadoop2.7，那么我的PYTHONPATH的value是/Applications/spark/spark-2.1.1-bin-hadoop2.7/python 。设置好了保存。（注意不管是路径的哪里，都不能有空格！！尤其是结尾！！今天下午就因为一个空格折磨我好久）</p><p>5 关键的一步。在perferences中的project structure中点击右边的“add  content root”，添加py4j-some-version.zip和pyspark.zip的路径（这两个文件都在Spark中的python文件夹下）</p><p>6 完成，from pyspark import SparkContext，红线消失，运行正常。</p>]]></content>
       
@@ -267,31 +242,6 @@
     
     
     <entry>
-      <title>ArrayList源码分析</title>
-      <link href="2020/04/20/ArrayList%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
-      <url>2020/04/20/ArrayList%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 未分类 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>hql常见函数</title>
       <link href="2020/03/19/hql%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/"/>
       <url>2020/03/19/hql%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/</url>
@@ -427,31 +377,6 @@
       <categories>
           
           <category> Linux </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>大数据相关单词</title>
-      <link href="2020/03/16/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%8D%95%E8%AF%8D/"/>
-      <url>2020/03/16/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%8D%95%E8%AF%8D/</url>
-      
-        <content type="html"><![CDATA[<table><thead><tr><th>单词</th><th>翻译</th></tr></thead><tbody><tr><td>row format delimited fields terminated by “\t”</td><td>行格式分隔的字段，以“ \ t”结尾</td></tr><tr><td>external</td><td>外部</td></tr><tr><td>comment</td><td>评论</td></tr><tr><td>partitioned by</td><td>分区（分目录）</td></tr><tr><td>sorted by</td><td>排序</td></tr><tr><td>clustered by</td><td>分桶（分文件）</td></tr><tr><td>serialize</td><td>序列化</td></tr><tr><td>deserialize</td><td>反序列化</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table><p>create table test(</p><p>​    </p><p>)</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> hive </category>
           
       </categories>
       
@@ -642,56 +567,6 @@
     
     
     <entry>
-      <title>MapReduce流程图</title>
-      <link href="2020/02/28/MapReduce%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
-      <url>2020/02/28/MapReduce%E6%B5%81%E7%A8%8B%E5%9B%BE/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://kiedeng.site/usr/uploads/2020/02/4020856592.png" alt="核心思想"><br><img src="https://kiedeng.site/usr/uploads/2020/02/806542197.png" alt="Job提交流程"><br><img src="https://kiedeng.site/usr/uploads/2020/02/3955227225.jpg" alt="MapReduce详细流程"><br><img src="https://kiedeng.site/usr/uploads/2020/02/3289256044.jpg" alt="详细流程（2）"><br><img src="https://kiedeng.site/usr/uploads/2020/02/1050609538.jpg" alt="Shuffle机制"><br><img src="https://kiedeng.site/usr/uploads/2020/02/233752543.jpg" alt="MapTask工作机制"><br><img src="https://kiedeng.site/usr/uploads/2020/02/3775099059.jpg" alt="ReduceTask工作机制"><br><img src="https://kiedeng.site/usr/uploads/2020/02/3200426443.jpg" alt="YARN工作机制"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hadoop </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>文档资料</title>
-      <link href="2020/02/28/%E6%96%87%E6%A1%A3%E8%B5%84%E6%96%99/"/>
-      <url>2020/02/28/%E6%96%87%E6%A1%A3%E8%B5%84%E6%96%99/</url>
-      
-        <content type="html"><![CDATA[<p>HDFS:</p><p><a href="https://books.kiedeng.site/hadoop/hdfs.pdf">https://books.kiedeng.site/hadoop/hdfs.pdf</a></p><p>MapReduce:</p><p><a href="https://books.kiedeng.site/hadoop/mapreduce.pdf">https://books.kiedeng.site/hadoop/mapreduce.pdf</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工具 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>在线预览文件pdfJS</title>
       <link href="2020/02/28/%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E6%96%87%E4%BB%B6pdfJS/"/>
       <url>2020/02/28/%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E6%96%87%E4%BB%B6pdfJS/</url>
@@ -727,56 +602,6 @@
       <categories>
           
           <category> Hadoop </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>typora与typecho的问题</title>
-      <link href="2020/02/27/typora%E4%B8%8Etypecho%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-      <url>2020/02/27/typora%E4%B8%8Etypecho%E7%9A%84%E9%97%AE%E9%A2%98/</url>
-      
-        <content type="html"><![CDATA[<h3 id="标题问题"><a href="#标题问题" class="headerlink" title="标题问题"></a>标题问题</h3><p>​    为了能使typecho的“文章目录”能够正确的显示，在typora设置的标题必须是连续的；</p><p>比如：# </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 未分类 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Combiner合并</title>
-      <link href="2020/02/27/Combiner%E5%90%88%E5%B9%B6/"/>
-      <url>2020/02/27/Combiner%E5%90%88%E5%B9%B6/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 未分类 </category>
           
       </categories>
       
@@ -917,56 +742,6 @@
     
     
     <entry>
-      <title>MapReduce工作流程</title>
-      <link href="2020/02/20/MapReduce%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/"/>
-      <url>2020/02/20/MapReduce%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 未分类 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Shuffle机制</title>
-      <link href="2020/02/20/Shuffle%E6%9C%BA%E5%88%B6/"/>
-      <url>2020/02/20/Shuffle%E6%9C%BA%E5%88%B6/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 未分类 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>InputFormat数据输入</title>
       <link href="2020/02/20/InputFormat%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5/"/>
       <url>2020/02/20/InputFormat%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5/</url>
@@ -1034,31 +809,6 @@
         <tags>
             
             <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>centos安装MySQL</title>
-      <link href="2020/02/16/centos%E5%AE%89%E8%A3%85MySQL/"/>
-      <url>2020/02/16/centos%E5%AE%89%E8%A3%85MySQL/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> MySQL </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 部署 </tag>
             
         </tags>
       
